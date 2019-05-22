@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5EE7DC22953CB70088E2C1 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5EE7DB22953CB70088E2C1 /* UserData.swift */; };
+		0B65918022942745006C25D8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65917F22942745006C25D8 /* SettingsViewController.swift */; };
 		0B85D97A2293463300ECCBAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B85D9792293463300ECCBAC /* AppDelegate.swift */; };
 		0B85D97C2293463300ECCBAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B85D97B2293463300ECCBAC /* ViewController.swift */; };
 		0B85D97F2293463300ECCBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B85D97D2293463300ECCBAC /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B5EE7DB22953CB70088E2C1 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		0B65917F22942745006C25D8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0B85D9762293463300ECCBAC /* iPodnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPodnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B85D9792293463300ECCBAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B85D97B2293463300ECCBAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B65917E229421B3006C25D8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0B85D97B2293463300ECCBAC /* ViewController.swift */,
+				0B65917F22942745006C25D8 /* SettingsViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		0B85D96D2293463300ECCBAC = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +67,13 @@
 		0B85D9782293463300ECCBAC /* iPodnote */ = {
 			isa = PBXGroup;
 			children = (
+				0B65917E229421B3006C25D8 /* UI */,
 				0B85D9792293463300ECCBAC /* AppDelegate.swift */,
-				0B85D97B2293463300ECCBAC /* ViewController.swift */,
 				0B85D97D2293463300ECCBAC /* Main.storyboard */,
 				0B85D9802293463400ECCBAC /* Assets.xcassets */,
 				0B85D9822293463400ECCBAC /* LaunchScreen.storyboard */,
 				0B85D9852293463400ECCBAC /* Info.plist */,
+				0B5EE7DB22953CB70088E2C1 /* UserData.swift */,
 			);
 			path = iPodnote;
 			sourceTree = "<group>";
@@ -137,6 +151,8 @@
 			files = (
 				0B85D97C2293463300ECCBAC /* ViewController.swift in Sources */,
 				0B85D97A2293463300ECCBAC /* AppDelegate.swift in Sources */,
+				0B5EE7DC22953CB70088E2C1 /* UserData.swift in Sources */,
+				0B65918022942745006C25D8 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 254PK58346;
 				INFOPLIST_FILE = iPodnote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 254PK58346;
 				INFOPLIST_FILE = iPodnote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
